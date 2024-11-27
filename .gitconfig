@@ -1,0 +1,73 @@
+[user]
+	name = Michel Philippe Edubas
+	email = michel.edubas@steelx.com
+
+[alias]
+  # General
+  s = status
+  st = status -sb
+  co = checkout
+  br = branch
+  ci = commit
+  amend = commit --amend
+  ca = commit --amend --no-edit
+  cam = commit -am
+  cm = commit -m
+  pl = pull
+  plr = pull --rebase
+  ps = push
+  df = diff
+  ds = diff --staged
+  rb = rebase
+  rbc = rebase --continue
+  rba = rebase --abort
+  rbi = rebase -i
+  mrg = merge
+  mt = mergetool
+  rst = reset
+  rsth = reset --hard
+  rsts = reset --soft
+
+  # Logs
+	lg = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(auto)%d%C(reset)' --all
+  lol = log --oneline --graph --decorate
+  lola = log --oneline --graph --decorate --all
+  lf = log --follow
+  lgs = log --stat
+  lga = log --author
+
+  # Add/Remove
+  aa = add --all
+  a = add
+  unstage = reset HEAD
+  uncommit = reset --soft HEAD^
+
+  # Tags
+  t = tag
+  dt = describe --tags
+
+  # Work with remotes
+  rem = remote -v
+  rv = remote show
+  rs = remote set-url
+  radd = remote add
+  rf = fetch --tags --all --force
+  rsync = fetch --prune --tags
+
+  # Stash
+  ss = stash save
+  sl = stash list
+  sa = stash apply
+  sd = stash drop
+  sp = stash pop
+  sc = stash clear
+
+  # Clean
+  cleanall = clean -fd
+  prunebr = "!git branch --merged | grep -v '\\*' | xargs -n 1 git branch -d"
+
+  # Shortcuts
+  lgp = "!git lg | head -20"
+  bclean = "!git branch --merged master | grep -v '\\*' | xargs -n 1 git branch -d"
+  fixup = "!git commit --fixup"
+
