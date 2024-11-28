@@ -1,12 +1,7 @@
-[user]
-	name = Michel Philippe Edubas
-	email = michel.edubas@steelx.com
-
 [alias]
   # General
   s = status
   st = status -sb
-	lg = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(auto)%d%C(reset)' --all
   co = checkout
   br = branch
   ci = commit
@@ -30,6 +25,7 @@
   rsts = reset --soft
 
   # Logs
+	lg = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(auto)%d%C(reset)' --all
   lol = log --oneline --graph --decorate
   lola = log --oneline --graph --decorate --all
   lf = log --follow
@@ -51,7 +47,7 @@
   rv = remote show
   rs = remote set-url
   radd = remote add
-  rf = fetch --all
+  rf = fetch --tags --all --force
   rsync = fetch --prune --tags
 
   # Stash

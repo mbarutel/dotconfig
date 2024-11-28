@@ -81,6 +81,7 @@ bindkey -M vicmd '^[[P' vi-delete-char
 bindkey -M vicmd '^e' edit-command-line
 bindkey -M visual '^[[P' vi-delete
 
+# This just needs nvm installed via AUR packages
 source /usr/share/nvm/init-nvm.sh
 
 # Load syntax highlighting; should be last.
