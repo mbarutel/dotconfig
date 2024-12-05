@@ -70,7 +70,7 @@ lfcd () {
 bindkey -s '^o' '^ulfcd\n'
 
 # Ctrl+n for the editor
-bindkey -s '^n' '^ue\n'
+bindkey -s '^n' '^unv\n'
 
 bindkey '^[[P' delete-char
 
