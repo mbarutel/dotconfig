@@ -1,5 +1,5 @@
 {
-	"Modified": "2024-11-29T02:38:20.565365975Z",
+	"Modified": "2024-12-06T00:23:46.344317339Z",
 	"Keyboard": "ergodox",
 	"Board": "raytac_mdbt50q_rx_green",
 	"Shield": "slicemk_ergodox_dongle",
@@ -18,10 +18,9 @@
 			"Keys": [
 				{
 					"Name": "",
-					"Behavior": "&mt",
+					"Behavior": "&kp",
 					"Notes": "",
 					"Args": [
-						"LEFT_SHIFT GRAVE",
 						"ESCAPE"
 					]
 				},
@@ -442,11 +441,10 @@
 					]
 				},
 				{
-					"Name": "Quotes",
-					"Behavior": "&mt",
+					"Name": "",
+					"Behavior": "&kp",
 					"Notes": "",
 					"Args": [
-						"GRAVE",
 						"SINGLE_QUOTE"
 					]
 				},
@@ -634,9 +632,11 @@
 			"Keys": [
 				{
 					"Name": "",
-					"Behavior": "&bootloader",
+					"Behavior": "&kp",
 					"Notes": "",
-					"Args": []
+					"Args": [
+						"TILDE"
+					]
 				},
 				{
 					"Name": "",
@@ -1002,9 +1002,11 @@
 				},
 				{
 					"Name": "",
-					"Behavior": "&trans",
+					"Behavior": "&kp",
 					"Notes": "",
-					"Args": []
+					"Args": [
+						"GRAVE"
+					]
 				},
 				{
 					"Name": "",
@@ -1156,11 +1158,9 @@
 			"Keys": [
 				{
 					"Name": "",
-					"Behavior": "&kp",
+					"Behavior": "&trans",
 					"Notes": "",
-					"Args": [
-						"TILDE"
-					]
+					"Args": []
 				},
 				{
 					"Name": "",
@@ -1587,9 +1587,11 @@
 				},
 				{
 					"Name": "",
-					"Behavior": "&trans",
+					"Behavior": "&kp",
 					"Notes": "",
-					"Args": []
+					"Args": [
+						"LEFT_CONTROL LEFT_ALT E"
+					]
 				},
 				{
 					"Name": "",
@@ -1623,15 +1625,19 @@
 				},
 				{
 					"Name": "",
-					"Behavior": "&trans",
+					"Behavior": "&kp",
 					"Notes": "",
-					"Args": []
+					"Args": [
+						"LEFT_CONTROL A"
+					]
 				},
 				{
 					"Name": "",
-					"Behavior": "&trans",
+					"Behavior": "&kp",
 					"Notes": "",
-					"Args": []
+					"Args": [
+						"RIGHT_CONTROL RIGHT_ALT G"
+					]
 				}
 			]
 		}
