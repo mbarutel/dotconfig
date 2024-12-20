@@ -41,14 +41,14 @@
 		layer_2 {
 			bindings = <
 				&bootloader
-				&trans &trans &trans &trans &trans        &trans          &trans       &trans        &trans         &trans         &trans       &trans          &trans &trans
-				&trans &trans &trans &trans &trans        &trans          &trans       &trans        &trans         &trans         &trans       &trans          &trans &trans
-				&trans &trans &trans &trans &trans        &trans                                     &kp LEFT_ARROW &kp DOWN_ARROW &kp UP_ARROW &kp RIGHT_ARROW &trans &trans
-				&trans &trans &trans &trans &trans        &trans          &kp LS(HOME) &kp RS(END)   &trans         &trans         &trans       &trans          &trans &trans
-				&trans &trans &trans &trans &trans                                                                  &trans         &trans       &trans          &trans &trans
-				                                          &mt LC(X) LC(C) &kp LC(V)    &kp RC(S)     &kp RC(Z)
-				                            &kp LC(LA(E)) &trans          &trans       &trans        &trans         &trans
-				                                                          &kp LC(A)    &kp RC(RA(G))
+				&trans &trans &trans &trans &trans &trans          &trans       &trans      &trans         &trans         &trans       &trans          &trans &trans
+				&trans &trans &trans &trans &trans &trans          &trans       &trans      &trans         &trans         &trans       &trans          &trans &trans
+				&trans &trans &trans &trans &trans &trans                                   &kp LEFT_ARROW &kp DOWN_ARROW &kp UP_ARROW &kp RIGHT_ARROW &trans &trans
+				&trans &trans &trans &trans &trans &trans          &kp LS(HOME) &kp RS(END) &trans         &trans         &trans       &trans          &trans &trans
+				&trans &trans &trans &trans &trans                                                         &trans         &trans       &trans          &trans &trans
+				                                   &mt LC(X) LC(C) &kp LC(V)    &kp RC(S)   &kp RC(Z)
+				                            &kp F9 &kp F5          &trans       &trans      &kp F10        &kp F11
+				                                                   &trans       &trans
 			>;
 		};
 	};

@@ -1,5 +1,5 @@
 {
-	"Modified": "2024-12-06T00:23:46.344317339Z",
+	"Modified": "2024-12-14T06:30:57.98983931Z",
 	"Keyboard": "ergodox",
 	"Board": "raytac_mdbt50q_rx_green",
 	"Shield": "slicemk_ergodox_dongle",
@@ -1586,11 +1586,19 @@
 					]
 				},
 				{
-					"Name": "",
+					"Name": "Breakpoint",
 					"Behavior": "&kp",
 					"Notes": "",
 					"Args": [
-						"LEFT_CONTROL LEFT_ALT E"
+						"F9"
+					]
+				},
+				{
+					"Name": "Restart",
+					"Behavior": "&kp",
+					"Notes": "",
+					"Args": [
+						"F5"
 					]
 				},
 				{
@@ -1606,38 +1614,32 @@
 					"Args": []
 				},
 				{
-					"Name": "",
-					"Behavior": "&trans",
-					"Notes": "",
-					"Args": []
-				},
-				{
-					"Name": "",
-					"Behavior": "&trans",
-					"Notes": "",
-					"Args": []
-				},
-				{
-					"Name": "",
-					"Behavior": "&trans",
-					"Notes": "",
-					"Args": []
-				},
-				{
-					"Name": "",
+					"Name": "Step Over",
 					"Behavior": "&kp",
 					"Notes": "",
 					"Args": [
-						"LEFT_CONTROL A"
+						"F10"
+					]
+				},
+				{
+					"Name": "Step Into",
+					"Behavior": "&kp",
+					"Notes": "",
+					"Args": [
+						"F11"
 					]
 				},
 				{
 					"Name": "",
-					"Behavior": "&kp",
+					"Behavior": "&trans",
 					"Notes": "",
-					"Args": [
-						"RIGHT_CONTROL RIGHT_ALT G"
-					]
+					"Args": []
+				},
+				{
+					"Name": "",
+					"Behavior": "&trans",
+					"Notes": "",
+					"Args": []
 				}
 			]
 		}
