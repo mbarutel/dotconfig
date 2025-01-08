@@ -46,36 +46,32 @@ bindings = [
 # Google to test colors before setting a value, or simply using an editor such as VS Code where colors are displayed in a 
 # small box when a HEX is detected by the editor.
 
-# Cyber Punk Neon
-# Source https//github.com/Roboron3042/Cyberpunk-Neon
+# Theme: enfocado_dark
+# Source:  https://github.com/wuelnerdotexe/vim-enfocado
 
 # Default colors
 [colors.primary]
-background = '#000b1e'
-foreground = '#0abdc6'
-
-[colors.cursor]
-text   = '#000b1e'
-cursor = '#0abdc6'
+background =  '#181818'
+foreground =  '#b9b9b9'
 
 # Normal colors
 [colors.normal]
-black   = '#123e7c'
-red     = '#ff0000'
-green   = '#d300c4'
-yellow  = '#f57800'
-blue    = '#123e7c'
-magenta = '#711c91'
-cyan    = '#0abdc6'
-white   = '#d7d7d5'
+black   = '#3b3b3b'
+red     = '#ed4a46'
+green   = '#70b433'
+yellow  = '#dbb32d'
+blue    = '#368aeb'
+magenta = '#eb6eb7'
+cyan    = '#3fc5b7'
+white   = '#b9b9b9'
 
 # Bright colors
 [colors.bright]
-black   = '#1c61c2'
-red     = '#ff0000'
-green   = '#d300c4'
-yellow  = '#f57800'
-blue    = '#00ff00'
-magenta = '#711c91'
-cyan    = '#0abdc6'
-white   = '#d7d7d5'
+black   = '#777777'
+red     = '#ff5e56'
+green   = '#83c746'
+yellow  = '#efc541'
+blue    = '#4f9cfe'
+magenta = '#ff81ca'
+cyan    = '#56d8c9'
+white   = '#dedede'
