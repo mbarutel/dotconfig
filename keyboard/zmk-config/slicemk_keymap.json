@@ -7,7 +7,7 @@
 	"Advanced": {
 		"Logging": "",
 		"KRO": "",
-		"MouseMove": "",
+		"MouseMove": "900",
 		"MouseScroll": "",
 		"BTParams": ""
 	},
@@ -505,20 +505,16 @@
 					]
 				},
 				{
-					"Name": "WLEFT",
-					"Behavior": "&kp",
+					"Name": "",
+					"Behavior": "&trans",
 					"Notes": "",
-					"Args": [
-						"LEFT_CONTROL LEFT_ARROW"
-					]
+					"Args": []
 				},
 				{
-					"Name": "WRIGHT",
-					"Behavior": "&kp",
+					"Name": "",
+					"Behavior": "&trans",
 					"Notes": "",
-					"Args": [
-						"RIGHT_CONTROL RIGHT_ARROW"
-					]
+					"Args": []
 				},
 				{
 					"Name": "",
