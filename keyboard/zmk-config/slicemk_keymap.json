@@ -1,5 +1,5 @@
 {
-	"Modified": "2024-12-14T06:30:57.98983931Z",
+	"Modified": "2025-01-13T21:43:52.269331881Z",
 	"Keyboard": "ergodox",
 	"Board": "raytac_mdbt50q_rx_green",
 	"Shield": "slicemk_ergodox_dongle",
@@ -506,15 +506,19 @@
 				},
 				{
 					"Name": "",
-					"Behavior": "&trans",
+					"Behavior": "&kp",
 					"Notes": "",
-					"Args": []
+					"Args": [
+						"RIGHT_CONTROL LEFT_ARROW"
+					]
 				},
 				{
 					"Name": "",
-					"Behavior": "&trans",
+					"Behavior": "&kp",
 					"Notes": "",
-					"Args": []
+					"Args": [
+						"RIGHT_CONTROL RIGHT_ARROW"
+					]
 				},
 				{
 					"Name": "",
@@ -798,21 +802,27 @@
 				},
 				{
 					"Name": "",
-					"Behavior": "&trans",
+					"Behavior": "&kp",
 					"Notes": "",
-					"Args": []
+					"Args": [
+						"NUMBER_7"
+					]
 				},
 				{
 					"Name": "",
-					"Behavior": "&trans",
+					"Behavior": "&kp",
 					"Notes": "",
-					"Args": []
+					"Args": [
+						"NUMBER_8"
+					]
 				},
 				{
 					"Name": "",
-					"Behavior": "&trans",
+					"Behavior": "&kp",
 					"Notes": "",
-					"Args": []
+					"Args": [
+						"NUMBER_9"
+					]
 				},
 				{
 					"Name": "",
@@ -876,21 +886,27 @@
 				},
 				{
 					"Name": "",
-					"Behavior": "&trans",
+					"Behavior": "&kp",
 					"Notes": "",
-					"Args": []
+					"Args": [
+						"NUMBER_4"
+					]
 				},
 				{
 					"Name": "",
-					"Behavior": "&trans",
+					"Behavior": "&kp",
 					"Notes": "",
-					"Args": []
+					"Args": [
+						"NUMBER_5"
+					]
 				},
 				{
 					"Name": "",
-					"Behavior": "&trans",
+					"Behavior": "&kp",
 					"Notes": "",
-					"Args": []
+					"Args": [
+						"NUMBER_6"
+					]
 				},
 				{
 					"Name": "",
@@ -968,21 +984,27 @@
 				},
 				{
 					"Name": "",
-					"Behavior": "&trans",
+					"Behavior": "&kp",
 					"Notes": "",
-					"Args": []
+					"Args": [
+						"NUMBER_1"
+					]
 				},
 				{
 					"Name": "",
-					"Behavior": "&trans",
+					"Behavior": "&kp",
 					"Notes": "",
-					"Args": []
+					"Args": [
+						"NUMBER_2"
+					]
 				},
 				{
 					"Name": "",
-					"Behavior": "&trans",
+					"Behavior": "&kp",
 					"Notes": "",
-					"Args": []
+					"Args": [
+						"NUMBER_3"
+					]
 				},
 				{
 					"Name": "",
@@ -1039,6 +1061,14 @@
 					"Behavior": "&kp",
 					"Notes": "",
 					"Args": [
+						"NUMBER_0"
+					]
+				},
+				{
+					"Name": "",
+					"Behavior": "&kp",
+					"Notes": "",
+					"Args": [
 						"C_MUTE"
 					]
 				},
@@ -1057,12 +1087,6 @@
 					"Args": [
 						"C_VOLUME_UP"
 					]
-				},
-				{
-					"Name": "",
-					"Behavior": "&trans",
-					"Notes": "",
-					"Args": []
 				},
 				{
 					"Name": "",
