@@ -88,7 +88,7 @@ source /usr/share/nvm/init-nvm.sh
 source /usr/share/zsh/plugins/fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh 2>/dev/null
 source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.plugin.zsh 2>/dev/null
 source /usr/share/zsh/plugins/zsh-fzf-history-search/zsh-fzf-history-search.plugin.zsh 2>/dev/null
-source /usr/share/zsh/plugins/zsh-you-should-use/zsh-you-should-use.plugin.zsh 2>/dev/null
+# source /usr/share/zsh/plugins/zsh-you-should-use/zsh-you-should-use.plugin.zsh 2>/dev/null
 
 # Load zoxide
 eval "$(zoxide init zsh)"
